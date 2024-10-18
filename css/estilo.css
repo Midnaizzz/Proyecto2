@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h3, p, h4, a, ul, ol{
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    width: 1366px;
+    height: auto;
+    overflow: hidden;
+    background-image: url('../images/leafwallpaper.webp');
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(203, 156, 59);
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: rgba(177, 205, 107, 0.757);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a {
+    background-color: rgb(177, 205, 107);
+    color: azure;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: background-color 0.6s, transform 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    background-color: rgb(138, 160, 81);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    transition: transform 0.3s;
+}
+
+a:focus {
+    outline: 2px solid rgb(255, 136, 196);
+    outline-offset: 4px; 
+}
+
+section {
+    width: 1346px;
+    margin-left: 10px;
+    margin-top: 50px;
+    background: rgba(180, 218, 166, 0.504);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+section .titulo{
+    width: 1346px;
+    text-align: center;
+    color: rgba(128, 149, 75);
+    font-size: 35px;
+}
+
+section a{
+    color: rgba(128, 149, 75);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    transition: background-color 0.9s, transform 0.5s;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: start;
+}
+
+section a:hover{
+    background-color: rgba(128, 149, 75, 0.804);
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+section a:focus {
+    outline: 2px solid rgb(255, 0, 106);
+    outline-offset: 4px; 
+}
+
+section .izquierda{
+    width: 660px;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(151, 207, 159, 0.701);
+    border-radius: 8px;
+}
+
+.izquierda .texto1{
+    color: white;
+    width: auto;
+    height: 600px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(177, 205, 107);
+    border-radius: 8px;
+    font-size: 36px;
+}
+
+.izquierda .imagen{
+    width: auto;
+    height: 600px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(177, 205, 107);
+    border-radius: 8px;
+    font-size: 35px;
+    text-align: center;
+}
+
+section .derecha{
+    width: 660px;
+    height: auto;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(151, 207, 159, 0.701);
+    border-radius: 8px;
+}
+
+.derecha .texto2{
+    color: white;
+    width: auto;
+    height: 390px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(87, 133, 91);
+    border-radius: 8px;
+    font-size: 23px;
+}
+
+.derecha .texto4{
+    color: white;
+    width: auto;
+    height: 390px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(87, 133, 91);
+    border-radius: 8px;
+    font-size: 26px;
+}
+
+.derecha .imagen
+{
+    background-color: rgb(24, 68, 62);
+    margin-bottom: 30px;
+    width: auto;
+    height: 390px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    height: auto;
+    width: 1346px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgba(51, 165, 157, 0.504);
+    float: left;
+    text-align: center;
+}
+
+footer a{
+    color: rgba(51, 165, 157);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+    transition: background-color 0.9s, transform 0.5s;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: start;
+}
+
+footer a:hover{
+    background-color: rgba(51, 165, 157, 0.804);
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer img{
+   margin-left: 40px;
+}
+
+footer input{
+    width: 580px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+footer .texto3{
+    color: white;
+    margin-left: 40px;
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    background-color: rgb(51, 165, 157);
+    border-radius: 8px;
+    text-align: left;
+    float: left;
+}
+
